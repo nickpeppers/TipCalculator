@@ -8,24 +8,25 @@ using Android.OS;
 
 namespace TipCalculator
 {
-	[Activity (Label = "TipCalculator", MainLauncher = true)]
+	[Activity (Label = "TipCalculator")]
 	public class MainActivity : Activity
 	{
-		int count = 1;
 
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
+			SetContentView (Resource.Layout.MainLayout);
 
-			// Set our view from the "main" layout resource
-			SetContentView (Resource.Layout.Main);
+			var button = FindViewById<Button> (Resource.Id.myButton);
+			var billAmount = FindViewById<EditText> (Resource.Id.editText1);
+			var numberOfGuests = FindViewById<EditText> (Resource.Id.editText1);
+			var sliderBar = FindViewById<SeekBar> (Resource.Id.seekBar1);
+			var tipAmount = FindViewById<TextView> (Resource.Id.TipAmount);
 
-			// Get our button from the layout resource,
-			// and attach an event to it
-			Button button = FindViewById<Button> (Resource.Id.myButton);
-			
-			button.Click += delegate {
-				button.Text = string.Format ("{0} clicks!", count++);
+			button.Click += (sender, e) =>
+			{
+				double tipCost = (Convert.ToDouble(billAmount.Text)  * sliderBar.Progress)/Convert.ToDouble(numberOfGuests.Text);
+				tipAmount.Text = "$ " + Math.Round(tipCost, 2); 
 			};
 		}
 	}

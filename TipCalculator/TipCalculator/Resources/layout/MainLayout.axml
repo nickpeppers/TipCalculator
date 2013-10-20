@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff">
+    <TextView
+        android:text="Tip Calculator"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:background="#004d85"
+        android:height="44dp"
+        android:gravity="center" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:text="Bill Amount: "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/textView1"
+            android:gravity="center"
+            android:textColor="#004d85" />
+        <EditText
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/editText1"
+            android:layout_weight="1"
+            android:background="#d6d6d6"
+            android:minWidth="0dp"
+            android:minHeight=" 25dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:text="Number Of Guests: "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/textView2"
+            android:gravity="center"
+            android:textColor="#004d85" />
+        <EditText
+            android:inputType="number"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/editText2"
+            android:layout_weight="1"
+            android:background="#d6d6d6"
+            android:maxWidth="0dp"
+            android:maxHeight=" 25dp"
+            android:minWidth="0dp"
+            android:minHeight=" 25dp" />
+    </LinearLayout>
+    <TextView
+        android:text="Tip Percent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textColor="#004d85"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="10dp" />
+    <SeekBar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar1"
+        android:max="100"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="5dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="3dp">
+        <TextView
+            android:text="Tip Amount: "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/textView4"
+            android:textColor="#004d85" />
+        <TextView
+            android:text="$0.00"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/TipAmount"
+            android:textColor="#004d85" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:textColor="#004d85"
+        android:layout_marginTop="10dp" />
+</LinearLayout>
