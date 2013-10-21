@@ -71,16 +71,32 @@
             android:minWidth="0dp"
             android:minHeight=" 25dp" />
     </LinearLayout>
-    <TextView
-        android:text="Tip Percent"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView3"
-        android:textColor="#004d85"
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginTop="10dp"
         android:layout_marginLeft="3dp"
         android:layout_marginRight="3dp"
-        android:layout_marginTop="10dp" />
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout4">
+        <TextView
+            android:text="Tip Percent:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView3"
+            android:textColor="#004d85"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" />
+        <TextView
+            android:text="0"
+            android:id="@+id/SeekBarText"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:textColor="#004d85" />
+    </LinearLayout>
     <SeekBar
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -112,6 +128,32 @@
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:id="@+id/TipAmount"
+            android:textColor="#004d85" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout5">
+        <TextView
+            android:text="Total Per Guest:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView8"
+            android:textColor="#004d85"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" />
+        <TextView
+            android:text="$ 0.00"
+            android:id="@+id/guestTotalText"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
             android:textColor="#004d85" />
     </LinearLayout>
     <Button

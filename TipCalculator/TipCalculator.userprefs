@@ -1,19 +1,27 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TipCalculator\MainActivity.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="TipCalculator\SplashScreen.cs" Line="33" Column="70" />
-      <File FileName="TipCalculator\MainActivity.cs" Line="17" Column="27" />
+      <File FileName="TipCalculator\SplashScreen.cs" Line="1" Column="1" />
+      <File FileName="TipCalculator\MainActivity.cs" Line="34" Column="33" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True" selected="True">
+        <State expanded="True">
           <Node name="TipCalculator" expanded="True">
             <Node name="Resources" expanded="True">
-              <Node name="layout" expanded="True" />
+              <Node name="layout" expanded="True">
+                <Node name="MainLayout.axml" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
@@ -21,5 +29,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.TipCalculator MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
+  <MonoDevelop.Ide.ItemProperties.TipCalculator MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Debug="004a52aacd0ed7e2" />
 </Properties>

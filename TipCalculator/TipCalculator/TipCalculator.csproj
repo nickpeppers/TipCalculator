@@ -62,9 +62,9 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\Icon.png" />
     <AndroidResource Include="Resources\drawable\DollarSign.png" />
     <AndroidResource Include="Resources\layout\SplashScreenLayout.axml" />
-    <AndroidResource Include="Resources\Anim\splash_fade_in.xml" />
-    <AndroidResource Include="Resources\Anim\splash_fade_out.xml" />
     <AndroidResource Include="Resources\layout\MainLayout.axml" />
+    <AndroidResource Include="Resources\anim\splash_fade_in.xml" />
+    <AndroidResource Include="Resources\anim\splash_fade_out.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
@@ -72,6 +72,6 @@
     <Folder Include="Resources\drawable-xhdpi\" />
     <Folder Include="Resources\drawable-xxhdpi\" />
     <Folder Include="Resources\drawable\" />
-    <Folder Include="Resources\Anim\" />
+    <Folder Include="Resources\anim\" />
   </ItemGroup>
 </Project>
