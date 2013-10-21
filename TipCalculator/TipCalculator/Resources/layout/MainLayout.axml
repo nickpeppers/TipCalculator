@@ -39,7 +39,8 @@
             android:layout_weight="1"
             android:background="#d6d6d6"
             android:minWidth="0dp"
-            android:minHeight=" 25dp" />
+            android:minHeight=" 25dp"
+            android:padding="3dp" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -69,7 +70,8 @@
             android:maxWidth="0dp"
             android:maxHeight=" 25dp"
             android:minWidth="0dp"
-            android:minHeight=" 25dp" />
+            android:minHeight=" 25dp"
+            android:padding="3dp" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
