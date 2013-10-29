@@ -2,13 +2,13 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.Workbench ActiveDocument="TipCalculator\SplashScreen.cs">
     <Files>
-      <File FileName="TipCalculator\SplashScreen.cs" Line="32" Column="61" />
+      <File FileName="TipCalculator\SplashScreen.cs" Line="11" Column="26" />
       <File FileName="TipCalculator\MainActivity.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="TipCalculator" expanded="True" selected="True">
+        <State expanded="True" selected="True">
+          <Node name="TipCalculator" expanded="True">
             <Node name="Resources" expanded="True">
               <Node name="layout" expanded="True" />
             </Node>
